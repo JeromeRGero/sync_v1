@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#stage {
+    display: block;
+    width: 720px;
+    height: 450px;
+    margin: 100px auto;
+    background: linear-gradient(to bottom right, black, purple);
+}
+#testblock {
+    display: inline-block;
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+}
+.wall {
+    max-width: 45px;
+    max-height: 45px;
+}
+img {
+    max-width: 45px;
+    max-height: 45px;
+}
+
+#char {
+    padding: 0px 6px;
+    max-height: 45px;
+}
